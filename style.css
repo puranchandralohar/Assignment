@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+header{
+    background-color: #272727;
+    padding: 30px 10px;
+    position: sticky;
+    top:0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo-title a{
+    color:#fff;
+    font-size: 30px;
+}
+
+nav a{
+    color:#fff;
+    font-size: 18px;
+}
+.logo, .btn{
+    flex:1;
+    justify-content: center;
+}
+
+.menu{
+    flex:2;
+    justify-content: space-evenly;
+}
+
+.btn button{
+    padding:8px 20px;
+    background-color: #89f080;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.hero{
+    padding: 50px 0;
+    background-color: #404142;
+}
+
+.image{
+    flex:1;
+
+}
+.about{
+    flex:2;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+
+.about .name{
+    color: #89f080;
+    font-weight: 600;
+    font-size: 25px;
+    margin:15px 0;
+}
+.about h1{
+    color:#fff;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+.about p{
+    margin:15px 0;
+    text-align: justify;
+    color:#fff;
+}
+
+
+
+.image img{
+    width:500px;
+    height:500px;
+    border-radius:25% 0%;
+}
+
+.text{
+    color:#89f080;
+}
+
+.cv-btn{
+    padding: 10px 20px;
+    border: 2px solid #89f080;
+    color:#ffffff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.service-head{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    background-color: #272727;
+    color:#fff;
+
+
+}
+
+.service-blog{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #808080;
+}
+
+.box{
+    height:400px;
+    width:400px;
+    margin: 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edecec;
+}
+.box h4{
+    color:#89f080;
+}
+
+.box p{
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #272727;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+}
+
+.fa-brands{
+    margin-left:10px;
+}
